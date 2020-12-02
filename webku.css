@@ -1,0 +1,314 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url(nct/Poppins-SemiBold.otf);
+    text-indent: 20px;
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(nct/Poppins-Regular.otf);
+    text-indent: 20px;
+}
+
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url(nct/Poppins-Medium.otf);
+    text-indent: 20px;
+}
+
+@font-face {
+    font-family: "Studly";
+    src: url(nct/Studly\ Regular.otf);
+    text-indent: 50px;
+}
+
+@font-face {
+    font-family: "OpenSans-Semibold";
+    src: url(nct/OpenSans-Semibold.ttf);
+    text-indent: 50px;
+}
+
+header nav ul li {
+    font-family: "Poppins-Medium";
+    display: inline;
+    list-style-type: none;
+    margin: 30px;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header nav ul {
+    background: rgb(109,201,79);
+    background: linear-gradient(90deg, rgba(109,201,79,1) 0%, rgba(78,121,9,1) 50%, rgba(109,201,79,1) 100%);
+    padding: 15px;
+    text-align: center;
+}
+
+header nav ul li a {
+    color: #ffffff;
+}
+
+header nav ul li a:hover {
+    color: #97C045;
+}
+
+.title {
+    font-family: "Studly";
+    text-align: center;
+    margin-top: 50px;
+    color: #97C045;
+    font-size: 50px;
+}
+
+.Active {
+    color: rgb(247, 250, 50);
+    background-color: ;
+    padding: 10px;
+    background-clip: border-box;
+    border-radius: 25px;
+}
+
+body {
+    background-color: rgba(152, 201, 129, 0.26);
+    margin: 0;
+    display: block;
+}
+
+.sosmednct {
+    float: right;
+    margin-right: 50px;
+    font-family: "Poppins-SemiBold";
+    color: #777676;
+}
+
+.container {
+    margin-left: 50px;
+}
+
+main {
+    display: block;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.aside {
+    font-family: "Poppins-SemiBold";
+    color: green;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.foto {
+    border-radius: 50%;
+    border: 4px solid #ddd;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.capt {
+    padding: 1px;
+    font-family: "Poppins-Medium";
+    text-align: center;
+}
+
+aside {
+    width: 30%;
+    padding-left: 1em;
+    float: right;
+    margin-top: 0;
+    background: border-box;
+    border-color: transparent;
+    display: block;
+}
+
+#box {
+    border-radius: 10px;
+    background-color: #fcffdb;
+    padding: 20px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    box-shadow: 0.1px 1px 7px 0.1px #cac7c7;
+    margin-right: 50px;
+    margin-bottom: 5px;
+    position: top;
+}
+
+#footer {
+    font-family: "Poppins-Regular";
+    font-size: 12px;
+    color: white;
+    background: rgb(109,201,79);
+    background: linear-gradient(90deg, rgba(109,201,79,1) 0%, rgba(78,121,9,1) 50%, rgba(109,201,79,1) 100%);
+    margin-top: 100px;
+    height: 50px;
+    text-align: center;
+    padding: 1px;
+}
+
+.sijeuni {
+    font-family: "Poppins-Medium";
+    color:  #777676;
+}
+
+.judul {
+    font-family: "Poppins-SemiBold";
+    color: rgb(50, 180, 38);
+}
+
+#content {
+    border-radius: 10px;
+    background-color: #fcffdb;
+    padding: 20px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    box-shadow: 0.1px 1px 7px 0.1px #cac7c7;
+    margin-bottom: 50px;
+    position: relative;
+    float: left;
+    width: 67%;
+    display: block;
+}
+
+#fanfict {
+    padding: 10px;
+    margin-left: 40px;
+
+}
+
+p {
+    font-family: "Poppins-Regular";
+    font-size: 15px;
+    text-align: justify;
+}
+
+.judulartikel {
+    font-family: "Poppins-SemiBold";
+}
+
+.fanficnyasiapa {
+    color: rgb(139, 86, 25);
+}
+
+.nct {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    font-family: "Poppins-Regular";
+    color: green;
+    text-align: center;
+    margin-top: 5px;
+}
+
+::-webkit-scrollbar {
+    height:12px;
+    width: 13px;
+    background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #b0e597;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#nctzen {
+    display: block;
+}
+
+input, select, label, textarea {
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.input_user, textarea, select {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.input_user {
+    background-color: rgb(217, 235, 217);
+}
+
+textarea {
+    display: block;
+    resize: none;
+}
+
+#input_checkbox {
+    display: inline;
+}
+
+.button {
+    display: inline;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+}
+
+#submit_button {
+    background-color: rgb(116, 173, 94);
+}
+
+#submit_button:hover {
+    background-color: rgb(64, 148, 72);
+}
+
+form {
+    font-family: "Poppins-Medium";
+    color: rgb(19, 46, 19);
+    float: right;
+    width: 70%;
+    margin-right: 25px;
+}
+
+.img-form {
+    float: left;
+    margin-left: 25px;
+}
+
+.member {
+    float: left;
+    text-align: justify;
+    margin-left: 100px;
+}
+
+.member2 {
+    float: right;
+    text-align: justify;
+    margin-right: 100px;
+}
+
+.namaku {
+    color: black;
+    margin-top: 5px;
+}
+
+::-moz-selection {  
+    background: #3b5708;
+    color: #fff;
+}
+::selection {     
+    background: #3b5708;
+    color: #fff;
+}
